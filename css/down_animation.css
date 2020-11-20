@@ -1,0 +1,299 @@
+.child-1{
+    top: -15%;
+    left: -125%; 
+    z-index: 3;
+    width: 30%;
+}
+.child-1 img{
+    width: 88%;
+}/*new*/
+.child-1._active{
+    width: 30%;
+    top: 14.5%;
+    left: 42.5%; 
+    transition: 0.5s ease 1s;
+}
+
+
+.child-2{
+   top: 70%;
+   left: 225%;
+   z-index: 3;
+   width: 10vw; 
+   
+}
+.child-2 img{
+    width: 100%;
+}/*profession*/
+.child-2._active{
+    width: 40%;
+    top: 17%;
+    left: 29%; 
+    transition: 0.5s ease 1s;
+}
+
+
+.child-3{
+    top: 33%;
+    left: 79.5%; 
+    transform: rotate(80deg);
+}
+.child-3 img{
+    width: 200%;
+}/*3angle_blue*/
+.child-3._active{
+    width: 7%;
+    top: 75%;
+    left: 54%; 
+    transform: rotate(-1deg);
+    transition: 0.5s ease 1s;
+}
+
+
+.child-4{
+    top: 84%;
+    left: 6.5%; 
+}
+.child-4 img{
+    width: 40%;
+}/*midlle_blue*/
+.child-4._active{
+    width: 4%;
+    top: 4%;
+    left: 35.7%; 
+    transition: 0.5s ease 1s;
+}
+
+
+.child-5{
+    top: 10.5%;
+    left: 75%; 
+    }
+.child-5 img{
+    width: 1700%;
+}
+/*big_blue*/
+.child-5._active{
+    top: -4.5%;
+    left: 37.5%;
+    width: 0.6%; 
+    transition: 0.5s ease 1s;
+}
+
+
+
+.child-6{
+    top: 20%;
+    left: -15%; 
+}
+.child-6 img{
+    width: 20%;
+}/*mini_blue*/
+.child-6._active{
+    width: 5%;
+    top: -1.5%;
+    left: 36.5%;
+    transition: 0.5s ease 1s;
+}
+
+
+.child-7{
+    top: 22%;
+    left: 155%;
+    transform: rotate(195deg);
+    z-index: 2;
+}
+.child-7 img{
+    width: 100%;
+}/*Line 14*/
+.child-7._active{
+    width: 31.7%;
+    top: -8%;
+    left: 31.4%;
+    transform: rotate(0deg);
+    transition: 0.5s ease 1s;
+}
+
+
+
+.child-8{
+    width: 26%;
+    top: 18%;
+    left: 10%;
+    z-index: -2;
+}
+.child-8 img{
+    width: 175%;
+}/*rectangle_red*/
+.child-8._active{
+    width: 19%;
+    top: 19%;
+    left: 29.5%;
+    transition: 0.5s ease 1s;
+}
+
+
+
+.child-9{
+    top: 37%;
+    left: -4.5%;
+}
+.child-9 img{
+    width: 175%;
+}/*big_uncolor*/
+.child-9._active{
+    width: 10%;
+    top: 52.4%;
+    left: 26.7%;
+    transition: 0.5s ease 1s;
+}
+
+
+.child-10{
+    top: 57.3%;
+    left: 55%;
+}
+.child-10 img{
+    width: 180%;
+}/*middle_uncolor*/
+.child-10._active{
+    width: 5.2%;
+    top: 36.5%;
+    left: 57.8%;
+    transition: 0.5s ease 1s;
+}
+
+
+.child-11{
+    top: 14.5%;
+    left: 57.7%;
+    transform: rotate(18deg);
+}
+.child-11 img{
+    width: 170%;
+}/*mini_uncolor*/
+.child-11._active{
+    width: 8.6%;
+    top: 46.5%;
+    left: 21.7%;
+    transform: rotate(0deg);
+    transition: 0.5s ease 1s;
+}
+
+
+.child-12{
+    top: -22%;
+    left: 51%;
+    z-index: -1;
+}
+.child-12 img{
+    width: 110%;
+}/*3angle_yellow*/
+.child-12._active{
+    width: 10%;
+    top: 6.5%;
+    left: 52.7%;
+    transition: 0.5s ease 1s;
+}
+
+
+
+.child-13{
+    top: 56%;
+    left: 74%;
+    transform: rotate(154deg);
+    z-index: -1;
+}
+.child-13 img{
+    width: 180%;
+}/*middle_yellow*/
+.child-13._active{
+    width: 1.3%;
+    top: 17.8%;
+    left: 35.1%;
+    transform: rotate(0deg);
+    transition: 0.5s ease 1s;
+}
+
+
+.child-14{
+    top: 47%;
+    left: 73%;
+    transform: rotate(114deg);
+    z-index: -1;
+}
+.child-14 img{
+    width: 130%;
+}/*mini_yellow*/
+.child-14._active{
+    width: 1.3%;
+    top: 24%;
+    left: 33.8%;
+    transform: rotate(0deg);
+    transition: 0.5s ease 1s;
+}
+
+
+
+.child-15{
+    width: 6.3%;
+    top: -3%;
+    left: 13%;
+    transform: rotate(122deg);
+}
+.child-15 img{
+    width: 175%;
+}/*Rectangle_yellow*/
+.child-15._active{
+    width: 4.1%;
+    top: 17%;
+    left: 37.5%;
+    transform: rotate(0deg);
+    transition: 0.5s ease 1s;
+}
+
+
+.child-16{
+    top: 62%;
+    left: 46%;
+}
+.child-16 img{
+    width: 100%;
+}/*krug_logo*/
+.child-16._active{
+    top: 17%;
+    right: 237.5%;
+    transition: 0.5s ease 1s;
+}
+
+
+.child-17{
+    top: 44%;
+    left: 70%;
+    transform: rotate(30deg);
+}
+.child-17 img{
+    width: 150%;
+}/*3_red*/
+.child-17._active{
+    top: 17%;
+    right: 237.5%;
+    transition: 0.5s ease 1s;
+}
+
+
+.child-18{
+    top: 44%;
+    left: 170%;
+}
+.child-18 img{
+    width: 34%;
+}/*3_red*/
+.child-18._active{
+    width: 15%;
+    top: 72%;
+    left: 58%;
+    transform: rotate(-32deg);
+    transition: 0.5s ease 1s;
+}
+

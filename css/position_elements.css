@@ -1,0 +1,212 @@
+   /*позиционирование стрелок*/
+   /*и остального материала в главном блоке*/
+
+.central_content img:nth-child(1){    /*первая стрела*/
+    width: 3.9%;
+    left: 44.7%;
+    top: 1.3%;   
+    z-index: 3;   
+}
+.central_content p:nth-child(2){ /*всё сложно*/
+    width: 20%;
+    left: 7.3%;
+    top: 16.2%;
+}
+.central_content img:nth-child(3){     /*серая 1*/
+    width: 38%;
+    left: 11.6%;
+    top: 11.2%;
+    z-index: 1;
+}
+.central_content img:nth-child(4){      /*красный треугольник*/
+    width: 22.4%;
+    left: 36%;
+    top: 14.5%;
+    z-index: -1;
+}
+.central_content img:nth-child(5){      /*профессия*/
+    width: 22%;
+    left: 41.2%;
+    top: 8.4%;
+}
+.central_content p:nth-child(6){    /*пройди курс*/
+    width: 20%;
+    left: 34.2%;
+    top: 23.5%;
+    z-index: 2;
+}
+.central_content p:nth-child(7){    /*работа в прачечной*/
+     width: 20%;
+    left: 80%;
+    top: 11.6%;
+}
+.central_content img:nth-child(8){     /*вторая стрела*/
+    width: 10%;
+    left: 37.7%;
+    top: 32.8%;
+    z-index: 3;
+}
+.central_content img:nth-child(9){     /*серая 2*/
+    width: 50%;
+    left: 40.5%;
+    top: 17.9%;
+    z-index: 1;
+}
+.central_content img:nth-child(10){    /* серая 3 */
+    width: 19%;
+    left: 47.3%;
+    top: 32.7%;
+    z-index: 1;
+}
+.central_content p:nth-child(11){     /*кладбище вкладок*/
+    width: 22%;
+    left: 67.2%;
+    top: 32.3%;
+}
+.central_content img:nth-child(12){     /*серая 4*/
+    width: 34%;
+    left: 56%;
+    top: 26%;
+    z-index: 1;
+}
+.central_content p:nth-child(13){      /*пройди курсы*/
+    width: 35%;
+    left: 12%;
+    top: 39.2%;
+    z-index: 2;
+}
+.central_content img:nth-child(14){     /*голубой прямоуг*/
+    width: 33%;
+    left: 8.4%;
+    top: 35.8%;
+    z-index: -1;
+}
+.central_content img:nth-child(15){     /*курсы*/
+    width: 23.4%;
+    left: 12%;
+    top: 53.3%;
+}
+.central_content img:nth-child(16){     /*серая 5*/
+    width: 6%;
+    left: 36.7%;
+    top: 51.5%;
+    z-index: 1;
+}
+.central_content img:nth-child(17){      /*третья стрела*/
+    width: 19%;
+    left: 36%;
+    top: 50%;
+    z-index: 3;
+}
+.central_content img:nth-child(18){     /*серая 6*/
+    width: 35.4%;
+    left: 13%;
+    top: 59.8%;
+    z-index: 1;
+}
+.central_content img:nth-child(19){     /*проекты*/
+    width: 25.5%;
+    left: 56.2%;
+    top: 55.4%;
+}
+.central_content img:nth-child(20){     /*круг оранжевый*/
+    width: 23.2%;
+    left: 60%;
+    top: 59.7%;
+    z-index: -1;
+}
+.central_content p:nth-child(21){     /*тренируйся на проектах*/
+    width: 28%;
+    left: 64.8%;
+    top: 66.2%;
+    z-index: 2;
+}
+.central_content p:nth-child(22){    /* работа в министерстве*/
+    width: 13%;
+    left: 86%;
+    top: 55.2%;
+}
+.central_content p:nth-child(23){     /*своя компания */
+    width: 22%;
+    left: 1.5%;
+    top: 76.5%;
+}
+.central_content img:nth-child(24){     /*четвёртая стрела*/
+    width: 19%;
+    left: 41%;
+    top: 72.7%;
+    z-index: 3;
+}
+.central_content img:nth-child(25){     /*серая 7*/
+    width: 9%;
+    left: 58%;
+    top: 72.5%;
+    z-index: 1;
+}
+.central_content img:nth-child(26){     /*жёлтый прямоуг*/
+    width: 30%;
+    left: 31.3%;
+    top: 86.6%;
+    z-index: -1;
+
+}
+.central_content p:nth-child(27){     /*попади на доску*/
+    width: 30%;
+    left: 28.7%;
+    top: 88.7%;
+    z-index: 2;
+}
+.central_content p:nth-child(28){     /*не для найма мама*/
+    width: 22%;
+    left: 67.8%;
+    top: 89.1%;
+}
+.central_content img:nth-child(29){     /*работа*/
+    width: 23%;
+    left: 31%;
+    top: 98.3%;
+}
+.central_content img:nth-child(30){     /*стрела пятая*/
+    width: 4%;
+    left: 56.7%;
+    top: 95.9%;
+    z-index: 3;
+}
+.central_content p:nth-child(31){      /*ай, лень. нетфликс*/
+    width: 25%;
+    left: 20%;
+    top: 67.5%;
+}
+
+
+
+.central_content img:nth-child(32){    /*мобильная стрелка черн1*/
+    display: none;
+} 
+.central_content img:nth-child(33){    /*мобильная стрелка черн2*/
+    display: none;
+}  
+.central_content img:nth-child(34){    /*мобильная стрелка черн3*/
+    display: none;
+}  
+.central_content img:nth-child(35){    /*мобильная стрелка черн4*/
+    display: none;
+}  
+.central_content img:nth-child(36){    /*мобильная стрелка серая1*/
+    display: none;
+}  
+.central_content img:nth-child(37){    /*мобильная стрелка серая2*/
+    display: none;
+}
+.central_content img:nth-child(38){    /*мобильная стрелка серая3*/
+    display: none;
+}  
+.central_content img:nth-child(39){    /*мобильная стрелка серая4*/
+    display: none;
+}  
+.central_content img:nth-child(40){    /*мобильная стрелка серая5*/
+    display: none;
+}  
+.central_content img:nth-child(41){    /*мобильная стрелка серая6*/
+    display: none;
+}     

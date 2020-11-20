@@ -1,0 +1,639 @@
+
+@media screen and (min-width:1440px) {
+    .header{
+        height: 80px;
+    }
+    ul{
+        font-size: 20px;   /*верхнее меню*/
+    }
+    ul li{
+        padding: 15px 15px
+    }
+    .logo_desc{      /*шрифт текста с цветными вставками*/
+        font-size: 56px;
+    }
+    .descript{
+        width: 65%;
+    }
+    .choise_prof{            /* блок кнопка начни с выбора профессии*/
+        margin-bottom: 10px;
+    }
+    .choise_prof button, .lets_go button{
+        font-size: 32px;             /* кнопка начни с выбора профессии*/
+        border: 4px solid black;
+    }
+    .grey_text{
+        font-size: 24px;
+    }
+    .brigth_text{
+        font-size: 32px;
+    }
+    /*footer*/
+    .footer_info{
+        font-size: 16px;
+        
+    }
+    .footer_menu h3{
+        font-size: 32px;
+    }
+    .footer_menu div{
+        border: 3px solid black;
+        line-height: 28px;
+    }
+    .footer_menu{
+        font-size: 20px;
+        
+    }
+    /*кнопки футора*/
+    .footer_butt{
+        border: 3px solid black;
+        border-radius: 3vw;
+        font-size: 24px;
+        padding: 23px 45px;
+    }
+    /*самый низ голубенький*/
+    .footer_info{       
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+}
+
+
+@media screen and (max-width:1350px) {
+    .central_content{
+        height: 1250px;
+    }
+    .central_animation{
+        height: 650px;
+    }
+}
+@media screen and (max-width:1300px) {
+    .central_content{
+        height: 1200px;
+    }
+    .central_animation{
+        height: 625px;
+    }
+}
+@media screen and (max-width:1250px) {
+    .central_content{
+        height: 1150px;
+    }
+    .central_animation{
+        height: 600px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .central_content{
+        height: 1100px;
+    }
+    .central_animation{
+        height: 575px;
+    }
+} 
+@media screen and (max-width:1150px) {
+    .central_content{
+        height: 1050px;
+    }
+    .central_animation{
+        height: 550px;
+    }
+}
+@media screen and (max-width:1100px) {
+    .central_content{
+        height: 1000px;
+    }
+    .central_animation{
+        height: 525px;
+    }
+} 
+@media screen and (max-width:1050px) {
+    .central_content{
+        height: 950px;
+    }
+    .central_animation{
+        height: 500px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .central_content{
+        height: 900px;
+    }
+    .central_animation{
+        height: 475px;
+    }
+    .footer_logo img{
+        width: 80%;       /*логотип футора*/
+        margin-left:-10%;
+    }
+    .header{
+        font-size: 18px;
+    }
+    ul li{
+        padding-left: 15px;
+    }
+    ul li img{
+        background-size: 50%;
+    }
+    .header{
+        display: none;
+    }
+    .sandwich:hover + .mobile_menu {
+        display: block; 
+        background-color: aquamarine;            
+    } 
+    .mobile_menu{
+        display: none;
+        position: absolute;
+        width: 100%;
+        background-color: aquamarine;
+    }     
+
+    .mobile_header{
+        width: 100%;
+        display: flex;
+        justify-content:  space-between;
+        align-items: center;
+        margin: 3vw 0;
+        padding: 0 5vw;
+    }
+
+
+
+
+
+
+    .aside{
+        display: none;
+    }
+    .content{              
+        display: flex;
+        flex-direction: column;
+    }
+    .logo_desc{
+        display: flex;           /*центральный логотип*/
+        flex-direction: column;
+        align-items: center;
+    }
+    .logotype{
+        width: 40%;
+        margin-left: -10%;     /*2 блок с описанием*/
+    }
+    .content{
+        margin-left: 0%;
+    }
+    .descript{
+        width: 90%;
+        font-size: 5.4vw;
+    }
+    .choise_prof button, .lets_go button{          /*кнопка начни с выбора проффф*/
+        font-size: 4vw;
+        padding: 2% 13%;
+    }
+
+
+    .grey_text{
+        font-size: 4.2vw;
+    }
+    .brigth_text{
+        font-size: 5.3vw;
+    }
+
+
+
+    .central_content{
+        height: 4350px;
+    }
+    .central_content img:nth-child(1){    /*первая стрела*/
+        display: none; 
+    }
+    .central_content p:nth-child(2){ /*всё сложно*/
+        width: 40%;
+        left: 5%;
+        top: 22.1%;
+    }
+    .central_content img:nth-child(3){     /*серая 1*/
+        display: none;
+    }
+    .central_content img:nth-child(4){      /*красный треугольник*/
+        width: 50%;
+        left: 16.5%;
+        top: 5.8%;
+        z-index: -1;
+    }
+    .central_content img:nth-child(5){      /*профессия*/
+        width: 50%;
+        left: 27.5%;
+        top: 2.6%;
+    }
+    .central_content p:nth-child(6){    /*пройди курс*/
+        width: 40%;
+        left: 12%;
+        top: 10.5%;
+        z-index: 2;
+    }
+    .central_content p:nth-child(7){    /*работа в прачечной*/
+        display: none;
+    }
+    .central_content img:nth-child(8){     /*вторая стрела*/
+        display: none;
+    }
+    .central_content img:nth-child(9){     /*серая 2*/
+        display: none;
+    }
+    .central_content img:nth-child(10){    /* серая 3 */
+        display: none;
+    }
+    .central_content p:nth-child(11){     /*кладбище вкладок*/
+        width: 45%;
+        left: 50%;
+        top: 21.1%;
+    }
+    .central_content img:nth-child(12){     /*серая 4*/
+        display: none;
+    }
+    .central_content p:nth-child(13){      /*пройди курсы*/
+        width: 55%;
+        left: 21%;
+        top: 30.5%;
+        z-index: 2;
+        
+    }
+    .central_content img:nth-child(14){     /*голубой прямоуг*/
+        width: 85%;
+        left: 11%;
+        top: 28.4%;
+        z-index: -1;
+    }
+    .central_content img:nth-child(15){     /*курсы*/
+        width: 59%;
+        left: 20.7%;
+        top: 38.6%;
+    }
+    .central_content img:nth-child(16){     /*серая 5*/
+        display: none;
+    }
+    .central_content img:nth-child(17){      /*третья стрела*/
+        display: none;
+    }
+    .central_content img:nth-child(18){     /*серая 6*/
+        display: none;
+    }
+    .central_content img:nth-child(19){     /*проекты*/
+        width: 65%;
+        left: 4.2%;
+        top: 56.7%;
+    }
+    .central_content img:nth-child(20){     /*круг оранжевый*/
+        width: 60%;
+        left: 15%;
+        top: 59.4%;
+        z-index: -1;
+    }
+    .central_content p:nth-child(21){     /*тренируйся на проектах*/
+        width: 53%;
+        left: 26%;
+        top: 63.4%;
+        z-index: 2;
+    }
+    .central_content p:nth-child(22){    /* работа в министерстве*/
+        width: 31%;
+        left: 68%;
+        top: 50%;
+        
+    }
+    .central_content p:nth-child(23){     /*своя компания */
+        width: 46%;
+        left: 6%;
+        top: 77.4%;
+
+    }
+    .central_content img:nth-child(24){     /*четвёртая стрела*/
+        display: none;
+    }
+    .central_content img:nth-child(25){     /*серая 7*/
+        display: none;
+    }
+    .central_content img:nth-child(26){     /*жёлтый прямоуг*/
+        width: 79%;
+        left: 15%;
+        top: 86.6%;
+        z-index: -1;
+    }
+    .central_content p:nth-child(27){     /*попади на доску*/
+        width: 60%;
+        left: 10%;
+        top: 88%;
+        z-index: 2;
+    }
+    .central_content p:nth-child(28){     /*не для найма мама*/
+        width: 40%;
+        left: 57%;
+        top: 73.6%;
+
+    }
+    .central_content img:nth-child(29){     /*работа*/
+        width: 59%;
+        left: 16%;
+        top: 94%;
+    }
+    .central_content img:nth-child(30){     /*стрела пятая*/
+        display: none;
+    }
+    .central_content p:nth-child(31){      /*ай, лень. нетфликс*/
+        width: 39%;
+        left: 20.2%;
+        top: 46.9%;
+    }
+
+
+    .central_content img:nth-child(32){    /*мобильная стрелка черн1*/
+        width: 9.5%;
+        left: 44.3%;
+        top: 16.3%;
+        display: block;
+    } 
+    .central_content img:nth-child(33){    /*мобильная стрелка черн2*/
+        width: 58%;
+        left: 30%;
+        top: 43%;
+        display: block;
+    }  
+    .central_content img:nth-child(34){    /*мобильная стрелка черн3*/
+        width: 58.5%;
+        left: 22%;
+        top: 70.7%;
+        display: block;
+    }  
+    .central_content img:nth-child(35){    /*мобильная стрелка черн4*/
+        width: 11%;
+        left: 74%;
+        top: 92.8%;
+        display: block;
+    }  
+    .central_content img:nth-child(36){    /*мобильная стрелка серая1*/
+        width: 40%;
+        left: 60%;
+        top: 11.8%;
+        display: block;
+    }  
+    .central_content img:nth-child(37){    /*мобильная стрелка серая2*/
+        width: 38%;
+        left: 8%;
+        top: 15.5%;
+        display: block;
+    }  
+    .central_content img:nth-child(38){    /*мобильная стрелка серая3*/
+        width: 16.4%;
+        left: 5%;
+        top: 36%;
+        display: block;
+    }  
+    .central_content img:nth-child(39){    /*мобильная стрелка серая4*/
+        width: 37%;
+        left: 62%;
+        top: 39.5%;
+        display: block;
+    }  
+    .central_content img:nth-child(40){    /*мобильная стрелка серая5*/
+        width: 21.5%;
+        left: 2%;
+        top: 66.2%;
+        display: block;
+    }  
+    .central_content img:nth-child(41){    /*мобильная стрелка серая6*/
+        width: 37%;
+        left: 55.5%;
+        top: 70%;
+        display: block;
+    }     
+
+    /*footer menu реструктуризация*/
+    .footer_menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_menu div{
+        padding: 7% 12% 7% 7%;
+        font-size: 4vw;
+        line-height: 6vw;
+        width: 100%;
+        border: 0.5vw solid black;
+        margin-top: -0.4vw;
+    }
+    .footer_menu div h3{
+        font-size: 5vw;
+        margin-bottom: 10%;
+    } 
+    .footer_butt{         /* кнопки футера*/
+        border: 0.5vw solid black;
+        border-radius: 5vw;
+        font-size: 4vw;
+        font-weight: 700;
+        padding: 3% 8%;
+    }
+    .footer_info{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_logo img:first-child{
+        display: block;
+        width: 90%;
+        margin-bottom: 13%; 
+        margin-left: 2%;
+    }
+    .footer_logo img:nth-child(2){
+        display: none;
+    }
+    .footer_logo{
+        margin-bottom: 3%;
+    }
+    .footer_specy{
+        padding-left: 8%;
+    }
+    .partner{
+        background-image: url(../img/Ellipse.svg);
+        background-position: 110vw;
+    }
+    .partner:hover{
+        background-position: 40vw;
+        transition: 0.5s;
+    }
+    
+    .mentor{
+        background-image: url(../img/red_triangle.svg);
+        background-position: 110vw 50%;
+    }
+    .mentor:hover{
+        background-position: 40vw 50%;
+        transition: 0.5s;
+    }
+    
+    .rekruter{
+        background-image: url(../img/yellow.svg);
+        background-position: 110vw 105%;
+    }
+    .rekruter:hover{
+        background-position: 40vw 105%;
+        transition: 0.5s;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+} 
+@media screen and (max-width:950px) {
+    .central_content{
+        height: 4132px;
+    }
+    .central_animation{
+        height: 450px;
+    }
+}
+@media screen and (max-width:900px) {
+    .central_content{
+        height: 3915px;
+    }
+    .central_animation{
+        height: 425px;
+    }
+}     
+@media screen and (max-width:850px) {
+    .central_content{
+        height: 3698px;
+    }
+    .central_animation{
+        height: 400px;
+    }
+} 
+@media screen and (max-width:800px) {
+    .central_content{
+        height: 3480px;
+    }
+    .central_animation{
+        height: 375px;
+    }
+}
+@media screen and (max-width:750px) {
+    .central_content{
+        height: 3262px;
+    }
+    .central_animation{
+        height: 350px;
+    }
+} 
+@media screen and (max-width:700px) {
+    .central_content{
+        height: 3045px;
+    }
+    .central_animation{
+        height: 325px;
+    }
+}
+@media screen and (max-width:650px) {
+    .central_content{
+        height: 2828px;
+    }
+    .central_animation{
+        height: 300px;
+    }
+    .footer_logo img{      /*логотип футора*/
+        width: 70%;
+        margin-left:-8%;
+    }
+} 
+@media screen and (max-width:600px) {
+    .central_content{
+        height: 2610px;
+    }
+    .central_animation{
+        height: 275px;
+    }
+}     
+@media screen and (max-width:550px) {
+    .central_content{
+        height: 2393px;
+    }
+    .central_animation{
+        height: 250px;
+    }
+} 
+@media screen and (max-width:500px) {
+    .central_content{
+        height: 2175px;
+    }
+    .central_animation{
+        height: 225px;
+    }
+}
+@media screen and (max-width:450px) {
+    .central_content{
+        height: 1958px;
+    }
+    .central_animation{
+        height: 200px;
+    }
+} 
+@media screen and (max-width:400px) {
+    .central_content{
+        height: 1740px;
+    }
+    .central_animation{
+        height: 175px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .header{
+        font-size: 18px;
+    }
+    ul li{
+        padding-left: 15px;
+    }
+    ul li img{
+        background-size: 50%;
+    }
+    
+}
+
+
+/*
+@media screen and (max-width:640px) {
+    .header{
+        font-size: 15px;
+    }
+    ul li{
+        padding: 15px 0.8vw;
+    }
+    .content{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .header{
+        font-size: 14px;
+    }
+    ul li{
+        padding-left: 5px;
+    }
+}*/
